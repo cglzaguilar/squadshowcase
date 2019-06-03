@@ -1,0 +1,25 @@
+# Exclude a bunch of unnecessary files
+node_modules/*
+!node_modules/aframe/
+!node_modules/ar.js/
+# Manually rename ar.js to ar_js after install to workaround NXG directory name restrictions
+!node_modules/ar_js/
+
+node_modules/aframe/*
+!node_modules/aframe/License*
+!node_modules/aframe/dist/
+
+node_modules/ar.js/*
+!node_modules/ar.js/License*
+!node_modules/ar.js/data/
+!node_modules/ar.js/aframe/
+
+node_modules/ar.js/data/*
+!node_modules/ar.js/data/data/
+!node_modules/ar.js/data/images/
+
+node_modules/ar.js/data/images/*
+!node_modules/ar.js/data/images/hiro.png
+
+node_modules/ar.js/aframe/*
+!node_modules/ar.js/aframe/build/
