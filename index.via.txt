@@ -6,7 +6,7 @@ define (WebApp%3A%3Aindex%2Egviweb dv(.VirtualInstrument (
     Locals: c(   // Data Space
         e(dv(.String 'WebApp::index.gviweb')local0)
         ce(dv(.String '.eagle-demo')c1)
-        ce(dv(.String '../../figure.gltf')c2)
+        ce(dv(.String '../../scene.gltf')c2)
         e(.Int32 local3)
         e(dv(.Boolean false)dataItem_StartCamera)
         e(.Boolean local5)
